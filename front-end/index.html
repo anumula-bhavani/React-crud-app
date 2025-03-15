@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Operations - Frontend Only</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        table { width: 80%; margin: 20px auto; border-collapse: collapse; }
+        th, td { border: 1px solid black; padding: 8px; text-align: left; }
+        .edit-btn { background-color: orange; padding: 5px; border: none; cursor: pointer; }
+        .delete-btn { background-color: red; padding: 5px; border: none; color: white; cursor: pointer; }
+    </style>
+</head>
+<body>
+
+    <h2>CRUD Operations - Frontend Only</h2>
+
+    <form id="userForm">
+        <input type="hidden" id="userId">
+        <input type="text" id="name" placeholder="Enter Name" required>
+        <input type="email" id="email" placeholder="Enter Email" required>
+        <input type="number" id="age" placeholder="Enter Age" required>
+        <button type="submit">Add User</b
